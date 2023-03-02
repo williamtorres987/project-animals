@@ -1,9 +1,11 @@
-package src.main.java.animals;
+package animals;
 
 public class Ave {
     private String cor;
     private String bico;
     private String especie;
+
+    private String tamanho;
 
     public String getCor() {
         return cor;
@@ -27,5 +29,13 @@ public class Ave {
 
     public void setEspecie(String especie) {
         this.especie = especie;
+    }
+
+    public String getTamanho() {
+        return tamanho;
+    }
+
+    public void setTamanho(String tamanho) {
+        this.tamanho = tamanho;
     }
 }
