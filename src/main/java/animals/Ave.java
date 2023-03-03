@@ -1,10 +1,12 @@
 package animals;
 
 public class Ave {
+
+    //SUPER CLASSE, MAIS PICA DE TODAS
+
     private String cor;
     private String bico;
     private String especie;
-
     private String tamanho;
 
     public String getCor() {
